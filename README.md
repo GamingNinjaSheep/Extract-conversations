@@ -11,8 +11,8 @@ If you have any questions feel free to contact me on GitHub or just pm me on the
 v1.2 - 16.11.2017
 	- Now also extracts phone messages, phonecalls and whispers.
 
-v1.1 - 13.10.2017
+v1.1 - 13.11.2017
 	- Now also extracts /me's and /do's.
 
-v1.0 - 3.10.2017
+v1.0 - 3.11.2017
 	- Program created.
