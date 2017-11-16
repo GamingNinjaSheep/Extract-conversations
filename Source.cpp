@@ -14,13 +14,14 @@ int main()
 		{
 			while (getline(readfile, line))
 			{
-				if ((line.find("says") != string::npos) || (line.find("~s~") != string::npos))
+				if ((line.find("says") != string::npos) || (line.find(" ~s~") != string::npos) || (line.find("~SMS") != string::npos)
+					|| (line.find("~You") != string::npos) || (line.find("cellphone") != string::npos) || (line.find("Whisper") != string::npos))
 				{
 					writefile << line << "\n";
 				}
 			}
 		}
-		
+
 		readfile.close();
 		writefile.close();
 
